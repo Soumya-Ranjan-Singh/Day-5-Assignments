@@ -2,7 +2,6 @@
 
 package basic_core_prog;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class FlipCoin {
@@ -17,7 +16,6 @@ public class FlipCoin {
     public static void getFlipDetails(int flipNo) {
         int headCount = 0 , tailCount = 0;
         float headPercen , tailPercen;
-        Random random = new Random();
         for (int i =1; i <= flipNo; i++)
         {
             float coinFlip = (float) Math.random();
